@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section starts here-->
+    <header>
+        <a href="#" class="logo">🍄Punctual Pantry</a>
+        
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+    <!--header ends here-->
+    <!--search form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here. . ." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!--search form ends-->
+
+<!--home sections starts-->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Discover our kitchen's secrets</span>
+                    <h3>Pizza</h3>
+                    <p>Good-quality, fresh food that is both healthy and delicious is available. Did you know a Pizza was Delivered in Space.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="img">
+                    <img src="images/img3.png" alt="pizza">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Must-try bites on the menu</span>
+                    <h3>Salmon Dish</h3>
+                    <p>Grilled salmon and veggies make for a colorful and balanced seafood dinner.The grill turns the salmon flaky and moist while tenderizing the crispy pepper and onion pieces. Round out the meal with brown rice or quinoa.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="img">
+                    <img src="images/img1.png" alt="salmon">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Platefuls of deliciousness</span>
+                    <h3>Waffles</h3>
+                    <p>A classic mouthwatering treat for midnight cravings and daytime snack. Nike's first pair of sneakers, Waffle Trainers, were made using a real waffle iron.</p>
+                         <a href="#" class="btn">order now</a>
+                </div>
+                <div class="img">
+                    <img src="images/img2.png" alt="waffles">
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<!--dishes section-->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">Dishes Served</h3>
+    <h3 class="heading">Dishes In The Spotlight</h3>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="dish-1">
+            <h3>Biryani</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <span>₹350</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="dish-2">
+            <h3>Burgers</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <span>₹200</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="dish-3">
+            <h3>Rolls</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <span>₹150</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="dish-4">
+            <h3>Thali</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐</p>
+            </div>
+            <span>₹300</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="dish-5">
+            <h3>Dessert</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐</p>
+            </div>
+            <span>₹400</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="dish-6">
+            <h3>South-Indian</h3>
+            <div class="stars">
+                <p>⭐⭐⭐⭐</p>
+            </div>
+            <span>₹270</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+<!--dishes section end-->
+<!--About section-->
+
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">Why choose us?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Best Food In The Country!</h3>
+            <p>At punctual Pantry we strive to deliver the best food at the fastest speed possible!<br>
+            Expect only the tastiest and the freshest food, arriving on time.
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 customer care</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+</section>
+
+<!--About section end-->
+
+<!--menu section-->
+<section class="menu" id="menu">
+    <h3 class="sub-heading">La Carte</h3>
+    <h1 class="heading">Chef's Special</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>Every bite is bursting with flavor and the perfect combination of chewy, cheesy, and savory. We offer a variety of toppings, including classic options like pepperoni, mushrooms, and sausage, as well as unique options like artichokes, sun-dried tomatoes, and feta cheese.</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹300</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>The vegetables are mashed together to create a creamy and flavorful mixture that is served hot with soft buttered pav buns. Each bite is a burst of spicy and tangy flavors</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹150</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-3.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>Every bite is a perfect blend of tender meat or vegetables, aromatic spices, and soft dough, creating a mouthwatering taste that will leave you craving for more.</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹80</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-4.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>Every bite is a perfect blend of tender meat or vegetables, aromatic spices, and soft dough, creating a mouthwatering taste that will leave you craving for more.</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹80</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>succulent and flavorful chicken that is bursting with spices and is perfect for any occasion. Our tandoori chicken is served with a side of mint chutney</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹450</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>golden-brown vada that is crispy on the outside and fluffy on the inside, with a satisfying crunch that will leave you wanting more. Our vada is served with a side of coconut chutney and sambar</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹45</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>fragrant and savory dish that is bursting with flavor and aroma. Each spoonful is a perfect blend of fluffy rice, tender vegetables, and savory sauces that will tantalize your taste buds</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹200</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>Each bite is a perfect balance of sweet and savory, with a delicate texture that is sure to satisfy your cravings.</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹320</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-10.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Delicious food</h3>
+                <p>We use only the finest quality ingredients, and our chefs take pride in creating delicious and satisfying chicken dishes that will leave you craving for more.</p>
+                     <a href="#" class="btn">add to cart</a>
+                     <span class="price">₹350</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--menu section ends-->
+
+<!--review section -->
+<section class="review" id="review">
+    <h3 class="sub-heading">customer's review</h3>
+    <h1 class="heading">what they say</h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images//pic-1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>The cheese was melted to perfection and the tomato sauce was tangy and delicious. I highly recommend the pizza!</p>
+                    </div>
+                </div>
+            </div>
+       
+
+    
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images//pic-2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Jennie</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>The vada from this restaurant was crispy on the outside and fluffy on the inside. It came with a flavorful coconut chutney and spicy sambar sauce. Perfect snack!</p>
+                    </div>
+                </div>
+            </div>
+        
+
+    
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images//pic-3.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Lisa</h3>
+                        <p>⭐⭐⭐⭐</p>
+                        <p>The tandoori chicken was juicy and tender with a perfectly charred exterior. The spices were well balanced and the dish was served with a side of tangy raita. Great flavor!</p>
+                    </div>
+                </div>
+            </div>
+        
+
+    
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images//pic-4.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Sam Dobrey</h3>
+                        <p>⭐⭐⭐⭐</p>
+                        <p>The pav bhaji had a perfect blend of vegetables and spices, and the buttered pav was soft and delicious. This dish is a must-try for Indian food lovers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+
+    
+</section>
+<!--review section -->
+
+<!--Order section-->
+<section class="order" id="order">
+    <h3 class="sub-heading">Order now</h3>
+    <h1 class="heading">Lightning speed delivery</h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>Your Name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="input">
+                <span>Your Contact No.</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+
+            <div class="input">
+                <span>Your Order</span>
+                <input type="text" placeholder="enter your food item">
+            </div>
+
+            <div class="input">
+                <span>Extras</span>
+                <input type="text" placeholder="additional items">
+            </div>
+
+            <div class="input">
+                <span>Quantity</span>
+                <input type="number" placeholder="How many orders">
+            </div>
+
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local">
+            </div>
+
+            <div class="input">
+                <span>Your address</span>
+                <textarea name="" placeholder="enter your address" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input">
+                <span>Your Message</span>
+                <textarea name="" placeholder="Additional Delivery Instruction" cols="30" rows="10"></textarea>
+            </div>
+
+        </div>
+        <input type="submit" value="order now" class="btn">
+    </form>
+</section>
+<!--Order section end-->
+
+<!--footer section-->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">India</a>
+            <a href="#">Japan</a>
+            <a href="#">South Korea</a>
+            <a href="#">USA</a>
+            <a href="#">UK</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Dishes</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Review</a>
+            <a href="#">Order</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Us</h3>
+            <a href="#">+91 9632540076</a>
+            <a href="#">+91 9878367728</a>
+            <a href="#">pantry@punctual.com</a>
+            <a href="#">Bangalore, India -560065</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+        <div class="credit">
+            copyright @ 2021 by <span>justBrewIt</span>
+        </div>
+
+    </div>
+</section>
+
+<!--footer ends-->
+
+<!--Loader-->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="loader">
+</div>
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<!--home sections ends-->
+    <script src="script.js"></script>
+</body>
+</html>
